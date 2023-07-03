@@ -1,0 +1,314 @@
+body {
+    font-family: 'Tajawal', sans-serif;
+}
+
+/* ==============    start header  ============== */
+header {
+    background-image: url('../img/header.jpg');
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 750px;
+}
+
+header .brand {
+    margin: 100px auto 60px;
+    display: inline-block;
+    padding-bottom: 35px;
+    border-bottom: 5px solid #464b52;
+}
+
+header .heading-page {
+    text-align: center;
+}
+
+header .heading-page h1 {
+    font-weight: 600;
+    font-size: 60px;
+}
+
+header .heading-page p {
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    width: 55%;
+    margin: auto;
+    background-color: #acacac50;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+header .count-down {
+    display: flex;
+    flex-flow: row nowrap;
+    align-self: center;
+    justify-content: space-around;
+    margin: 10px 0;
+    font-size: 22px;
+    width: 700px;
+}
+
+header .count-down .counter {
+    margin: 0 10px;
+    text-align: center;
+}
+
+
+header .count-down .counter .count-amount {
+    display: block;
+    color: #ffcf00;
+    font-size: 60px;
+}
+
+header .count-down .counter .count-period {
+    font-size: 20px;
+}
+
+header .count-down .counter .count-amount,
+header .count-down .counter .count-period {
+    font-weight: 600;
+    font-family: 'Cairo', sans-serif;
+}
+
+header .send-notification {
+    margin-top: 20px;
+    text-align: center;
+}
+
+header .send-notification p {
+    font-size: 18px;
+}
+
+header .send-notification .input-group {
+    transform: translateY(30%);
+}
+
+header .send-notification .input-group input {
+    border-radius: 0px !important;
+    width: 400px;
+    text-align: right;
+}
+
+header .send-notification .input-group input:focus {
+    box-shadow: 0 0 9px 2px #ffd000d9;
+}
+
+header .send-notification .input-group button {
+    background-color: #ffcf00;
+    border-radius: 5px 0 0 5px !important;
+}
+
+header .send-notification .input-group button:active {
+    color: #e2b903;
+    background-color: #e2b903;
+    border-color: none !important;
+}
+
+header .send-notification .input-group img {
+    padding: 10px;
+}
+
+/* ==============    start main  ============== */
+
+section.features {
+    padding: 100px 0;
+}
+
+section.features h2 {
+    color: #555;
+    margin-bottom: 50px;
+    font-family: 'Cairo', sans-serif;
+}
+
+section.features .row .col-md-6:nth-child(even) {
+    direction: ltr;
+}
+
+section.features .row .d-flex {
+    border: 4px solid #fafafa;
+    padding: 40px 10px;
+    margin-bottom: 20px;
+    max-height: 190px;
+}
+
+section.features .row .d-flex .flex-grow-1 h4 {
+    color: #333;
+}
+
+section.features .row .d-flex .flex-grow-1 p {
+    color: #757575;
+}
+
+/* ==============    start Footer  ============== */
+footer {
+    background-image: url('../img/footer-bg.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+footer .footer-notification {
+    background-color: rgba(255, 206, 0, 0.6);
+    padding: 70px 0;
+    text-align: center;
+}
+
+footer .footer-notification h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+footer .footer-notification .needs-validation .input-group {
+    padding: 10px;
+    width: 30%;
+    margin: 10px auto;
+}
+
+footer .footer-notification .needs-validation .input-group input {
+    padding: 20px;
+    text-align: right;
+    border-radius: 0px;
+}
+
+footer .footer-notification .needs-validation .input-group button {
+    padding: 20px;
+    background-color: #333;
+    border: none;
+    border-radius: 5px 0 0 5px !important;
+}
+
+footer .social-media {
+    background-color: rgba(57, 57, 57, 0.9);
+    text-align: center;
+    padding: 40px 10px;
+}
+
+footer .social-media h3 {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Cairo', sans-serif;
+}
+
+footer .social-media .list-inline {
+    margin-top: 30px;
+}
+
+footer .social-media .list-inline-item a {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, 0.14);
+    color: #fff;
+    display: block;
+    transition: 0.5s ease all;
+}
+
+footer .social-media .list-inline-item a:hover {
+    background-color: #fad32f;
+}
+
+footer .social-media .list-inline-item a:hover i {
+    color: transparent;
+}
+
+footer .social-media hr {
+    border-bottom: 2px solid #fff;
+    width: 50%;
+    margin: 10px auto;
+}
+
+footer .social-media a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+footer .social-media a i {
+    color: #e2b903;
+    padding: 10px;
+}
+
+@media (max-width:575px) {
+    header {
+        height: auto;
+    }
+
+    header .heading-page h1 {
+        font-size: 40px;
+    }
+
+    header .heading-page p {
+        color: #fff;
+        font-weight: 500;
+        font-size: 18px;
+        width: 90%;
+        margin: auto;
+        background-color: #acacac50;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    header .count-down {
+        flex-flow: column nowrap;
+        margin: 10px 0;
+        width: auto;
+    }
+
+    header .count-down .counter {
+        margin: 5px 0;
+        text-align: center;
+    }
+
+    header .send-notification {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    header .send-notification p {
+        margin-top: 30px;
+    }
+
+    header .send-notification .input-group {
+        transform: translateY(50%);
+    }
+
+    footer .footer-notification h3 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    footer .footer-notification .needs-validation .input-group {
+        width: 70%;
+    }
+
+}
+
+@media (max-width:767px) {
+    header .heading-page h1 {
+        font-size: 40px;
+    }
+
+    header .heading-page p {
+        width: 90%;
+    }
+
+    header .send-notification .input-group {
+        transform: translateY(50%);
+    }
+
+    footer .footer-notification .needs-validation .input-group {
+        width: 70%;
+    }
+}
+
+@media (min-width:1199px) {
+    footer .footer-notification .needs-validation .input-group {
+        width: 40%;
+    }
+}
